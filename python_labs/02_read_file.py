@@ -1,3 +1,4 @@
+# Function to read a file
 def read_file_data(file_path):
     try:
         with open(file_path, 'r') as file:
@@ -8,8 +9,8 @@ def read_file_data(file_path):
     except Exception as e:
         return "An error occurred while reading file"
 
-#Usage of above function
-file_path = "C:\Tark_Files\WorkFiles\python demos\my_api_packs\source\sample.txt"
+# Script usage of above function
+file_path = "C:\WorkFiles\python demos\my_api_packs\source\sample.txt"
 file_content = read_file_data(file_path)
 if isinstance(file_content, str):
     print(file_content)
