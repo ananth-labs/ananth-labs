@@ -1,3 +1,4 @@
+# Function to write some content to a file
 def write_data_to_file(file_path, content):
     try:
         with open(file_path, 'w+') as file:
@@ -9,7 +10,7 @@ def write_data_to_file(file_path, content):
         return "An error occurred while reading file"
 #Usage of above function
 my_content = "file_content will come here to test the working script"
-file_path = "C:\Tark_Files\WorkFiles\python demos\my_api_packs\source\sample2.txt"
+file_path = "C:\WorkFiles\python demos\my_api_packs\source\sample2.txt"
 result = write_data_to_file(file_path, my_content)
 if result == file_path:
     print ("File has been successfully created")
