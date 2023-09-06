@@ -20,7 +20,7 @@ def replacetext(source_file, search_text,replace_text):
 
 # Script usagee from the above function
 # File to search and replace string
-file_path = "C:\Tark_Files\WorkFiles\python demos\my_api_packs\source\sample1.txt"
+file_path = "C:\WorkFiles\python demos\my_api_packs\source\sample1.txt"
 
 # Creating a variable and storing the text that we want to search
 search_text = "one"
