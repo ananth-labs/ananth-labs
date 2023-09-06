@@ -13,5 +13,5 @@ def delete_full_dir_file(dir_path):
         print("Can not delete the folder as it doesn't exists")
 
 # Usage of the above function
-folderPath = "C:/Tark_Files/WorkFiles/python demos/my_api_packs/output/samples-main"
+folderPath = "C:/WorkFiles/python demos/my_api_packs/output/samples-main"
 delete_full_dir_file(folderPath)
